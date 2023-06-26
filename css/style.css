@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media (min-width:320px) {
+    .card {
+        width: 95vw;
+    }
+}
+
+@media (min-width:620px) {
+    .card {
+        width: 60vw;
+    }
+}
+
+@media (min-width:960px) {
+    .card {
+        width: 35vw;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.card {
+    padding: 50px 10px;
+    border: 1px solid rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .8);
+    color: red;
+    border-top: 4px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    color: #fff;
+    font-size: 35px;
+}
+
+.icons {
+    display: flex;
+    gap: 1.1rem;
+}
+
+#d-m-y {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.heading {
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 15px;
+}
+
+#clock {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+#day {
+    display: flex;
+    gap: 1.5rem;
+}
